@@ -1,0 +1,19 @@
+{
+    "questions":[
+           {"qnumber":1,"question":"According to the Bible, what day is the Sabbath ?","ans1":"Sunday (1st Day)","ans2":"Friday (6th Day)","ans3":"Saturday (7th Day)","ans4":"Monday (2nd Day)"},
+           {"qnumber":2,"question":"Who was the first person recorded in the Bible to have two wives ?","ans1":"Lamech","ans2":"Nimrod","ans3":"Cain","ans4":"Barabbas"},
+           {"qnumber":3,"question":"Who wrote most of the new testament ?","ans1":"Jesus","ans2":"James","ans3":"Paul","ans4":"Matthew"},
+           {"qnumber":4,"question":"Who was aboard the ark ?","ans1":"Japeth","ans2":"Noah","ans3":"Ham","ans4":"All Of The Above"},
+           {"qnumber":5,"question":"Who was the founder of Babylon ?","ans1":"Nabonidus","ans2":"Nimrod","ans3":"Nebuchadrezzar","ans4":"Melzar"},
+           {"qnumber":6,"question":"What animal was Babylon likened to ?","ans1":"Bear","ans2":"Leopard","ans3":"Lion","ans4":"Whale"},
+           {"qnumber":7,"question":"Who was Jesus a descendent of ?","ans1":"Lot","ans2":"David","ans3":"Jacob","ans4":"Both b and c"},
+           {"qnumber":8,"question":"What prophpet talked about the fate of the corrupt rich men in the Bible ?","ans1":"James","ans2":"John","ans3":"Ezekiel","ans4":"Moses"},
+           {"qnumber":9,"question":"What book is the Sabbath first mentioned ?","ans1":"Exodous","ans2":"Leviticus","ans3":"Numbers","ans4":"Genesis"},
+           {"qnumber":10,"question":"According to the Bible, what happens the moment you die ?","ans1":"You go to Heaven or Hell","ans2":"Nothing","ans3":"You go to purgatory","ans4":"Your thoughts perish"},
+           {"qnumber":11,"question":"What book in the Bible talks about Jesus being borne?","ans1":"Genesis","ans2":"Isaiah","ans3":"Revelation","ans4":"All of the above"},
+           {"qnumber":12,"question":"Who was the oldest man to ever live in the Bible ?","ans1":"Adam","ans2":"Methuselah","ans3":"Seth","ans4":"Noah"},
+           {"qnumber":13,"question":"What metal represents the kingdom of Media and Persia in the book of Daniel ?","ans1":"Iron","ans2":"Brass","ans3":"Silver","ans4":"Gold"},
+           {"qnumber":14,"question":"What name in the Bible means the glory has departed ?","ans1":"Ichabod","ans2":"Methuselah","ans3":"Barabbas","ans4":"Mahershalalhashbaz"},
+           {"qnumber":15,"question":"In the book of Revelation, what do the seven stars represent ?","ans1":"Seven literal stars","ans2":"Seven people","ans3":"Seven angels","ans4":"Seven meteors"}
+    ]
+}

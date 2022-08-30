@@ -1,0 +1,19 @@
+{
+    "answers":[
+           {"anumber":1, "correctAnswer":"Saturday (7th Day)", "proof":"(Genesis 2:2, 3. Exodous 20:8-11)" }, 
+           {"anumber":2, "correctAnswer":"Lamech", "proof":"(Genesis 4:19)"},
+           {"anumber":3, "correctAnswer":"Paul", "proof":"(Romans, 1 and 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 and 2 Thessalonians, 1 and 2 Timothy, Titus, Philemon, Hebrews)"},
+           {"anumber":4, "correctAnswer":"All Of The Above", "proof":"(Noah and his wife, Shem and his wife, Ham and his wife, Japheth and his wife (Genesis 7:7))"},
+           {"anumber":5, "correctAnswer":"Nimrod", "proof":"(Genesis 10: 8 - 10)"},
+           {"anumber":6, "correctAnswer":"Lion", "proof":"(Jeremiah 50:17,  Daniel 7:1-4, 17)"},
+           {"anumber":7, "correctAnswer":"Both b and c", "proof":"David and Jacob (Matthew 1: 1, 2)"},
+           {"anumber":8, "correctAnswer":"James", "proof":"(James 5: 1-5)"},
+           {"anumber":9, "correctAnswer":"Genesis", "proof":"(Genesis 2:2-3)"},
+           {"anumber":10, "correctAnswer":"Your thoughts perish", "proof":"(Ecclesiastes 9:4-6)"},
+           {"anumber":11, "correctAnswer":"All of the above", "proof":"(Genesis 3:15, Isaiah 9:6, 7, Revelation 12:1, 2, 5)"},
+           {"anumber":12, "correctAnswer":"Methuselah", "proof":"(Genesis 5:27)"},
+           {"anumber":13, "correctAnswer":"Silver", "proof":"(Daniel 2:1, 37, 38, Daniel 5:18 - 28)"},
+           {"anumber":14, "correctAnswer":"Ichabod", "proof":"(1 Samuel 4:21)"},
+           {"anumber":15, "correctAnswer":"Seven angels", "proof":"(Revelation 1:20)"}
+    ]
+}

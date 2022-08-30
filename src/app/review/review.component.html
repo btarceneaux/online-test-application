@@ -1,0 +1,16 @@
+<div>
+    <h2>Review</h2>
+    <div *ngFor="let r of userResponse">
+        <div>
+            {{r.qnumber}} .) {{r.question}} <br/>
+            You answered : {{r.userAnswer}} <br/>
+            <div [ngStyle]="{'color': r.result === 'Correct' ? 'green' : 'red'}">
+                {{r.result}} 
+                <span [ngStyle]="{'color': r.result === 'Correct' ? 'blue' : 'red'}">
+                    {{r.proof}} <br/>
+                </span> <br/>
+            </div>
+        </div>
+    </div>
+</div>
+<input type="button" value="Score Test"(click)="scoreMyTest()">

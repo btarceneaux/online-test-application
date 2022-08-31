@@ -73,20 +73,14 @@ export class QuizComponent implements OnInit {
       let myResult:string;
       let myAnswer = this.answers[i];
       let tempQuestion = this.questions[i];
-      
-      // console.log(myAnswer);
-      // console.log("The correct answer number is " + myAnswer.correctAnswer);
-      // console.log(myAnswer.proof);
 
       if(this.selectedAnswers.get((i + 1)) === myAnswer.correctAnswer)
       {
         this.totalNumberCorrect += 1;
         console.log(`Question number ${i + 1} is correct!`);
         myResult = "Correct";
-        // console.log(`The answer is ${myAnswer.correctAnswer}`);
-        // console.log(myAnswer.proof);
       }
-      // This probably needs to get moved to the display section.
+      
       else
       {
         console.log(`Incorrect: You answered question ${i + 1} as ${this.selectedAnswers.get((i + 1))} : Please read ${myAnswer.proof}`);

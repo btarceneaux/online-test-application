@@ -24,4 +24,6 @@ export class ReviewComponent implements OnInit {
     this.router.navigate(["/reviewResults"]);
   }
 
+  
+
 }

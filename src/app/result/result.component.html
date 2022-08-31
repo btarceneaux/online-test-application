@@ -1,4 +1,6 @@
 <div>
     <h2 [ngStyle]="{'color':'blue'}">Results</h2>
-    
+    <h3><div [ngStyle]="{'color': percentageCorrect > 59 ? 'green' : 'red'}"> You got {{percentageCorrect}}% correct! <br/>
+    {{passOrFail}} </div></h3> <br/>
+    <input type="button" value="Try Again"(click)="navigateHome()">
 </div>

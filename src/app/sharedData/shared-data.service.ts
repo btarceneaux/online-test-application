@@ -8,6 +8,7 @@ export class SharedDataService {
   totalCorrect:number = 0;
   totalPossibleQuestions:number = 0;
   quizResponses:Array<Responses> = [];
+  finalResult:string = "";
 
   constructor() { }
 
@@ -33,7 +34,7 @@ export class SharedDataService {
 
   getPercentageRight()
   {
-    return (this.totalCorrect/this.totalPossibleQuestions);
+    return ( this.totalCorrect/this.totalPossibleQuestions * 100 );
   }
 
   setResponses(incomingResponses:Array<Responses>)
@@ -44,5 +45,21 @@ export class SharedDataService {
   getResponses()
   {
     return this.quizResponses;
+  }
+
+  getPassOrFail()
+  {
+    //let totalNumberCorrect = this.getTotalCorrect();
+    //let outOf = this.getTotalQuestions();
+    if (this.getPercentageRight() >= 60)
+    {
+      this.finalResult = "You Passed!";
+    }
+    else
+    {
+      this.finalResult = "You Failed. Please Try Again!";
+    }
+
+    return this.finalResult;
   }
 }
